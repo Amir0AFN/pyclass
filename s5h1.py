@@ -1,0 +1,23 @@
+#Amir Abbas Fattahi - Thursday 14-18 class
+#tamrine list of fruits
+fruits = []
+fruit1 = input("Enter a fruit name:\n")
+fruits.append(fruit1)
+fruit2 = input("Enter a fruit name:\n")
+fruits.append(fruit2)
+fruit3 = input("Enter a fruit name:\n")
+fruits.append(fruit3)
+fruit4 = input("Enter a fruit name:\n")
+fruits.append(fruit4)
+fruit5 = input("Enter a fruit name:\n")
+fruits.append(fruit5)
+fruit6 = input("Enter a fruit name:\n")
+fruits.append(fruit6)
+fruit7 = input("Enter a fruit name:\n")
+fruits.append(fruit7)
+fruit8 = input("Enter a fruit name:\n")
+fruits.append(fruit8)
+print(fruits)
+uniques = set(fruits)
+print(uniques)
+print(len(uniques))
